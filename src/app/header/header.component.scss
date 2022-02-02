@@ -1,0 +1,37 @@
+nav{
+    font-size: 1.2rem;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+    img{
+        width: 50px;
+    }
+    div{
+        display: flex;
+        align-items: center;
+        a{
+            font-weight: 600;
+            text-decoration: none;
+            color: rgb(78, 78, 78);
+            padding: 0 20px 0 20px;
+        }
+        .inicio-sesion{
+            background-color: #e60023;
+            border-radius: 30px;
+            color: white;
+            padding: 15px;
+        }
+        .inicio-sesion:hover{
+            color: white;
+        }
+        a:hover{
+            color: #e60023;
+        }
+    }
+}
+@media (max-width: 768px) {
+    div{
+        visibility: hidden;
+    }
+}

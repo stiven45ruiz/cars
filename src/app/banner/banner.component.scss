@@ -1,0 +1,18 @@
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+    .target{
+        margin: 0 auto;
+        h3{
+            font-size: 1.8rem;
+            color: rgb(63, 63, 63);
+        }
+        img{
+            width: 600px;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+
+}

@@ -1,0 +1,10 @@
+<div class="product-grid">
+    <div class="target" *ngFor="let images of products">
+        <h3>
+            {{images.title}}
+        </h3>
+        <img [src]="images.image" alt="">
+        <p><strong>Precio:</strong> {{images.price}}</p>
+        <p><strong>Descripcion:</strong> {{images.description}}</p>
+    </div>   
+</div>
