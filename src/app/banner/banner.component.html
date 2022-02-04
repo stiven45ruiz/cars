@@ -1,11 +1,7 @@
-<div class="product-grid">
-    <div class="target" *ngFor="let images of products">
-        <h3>
-            {{images.title}}
-        </h3>
-        <img [src]="images.image" alt="">
-        <p><strong>Precio:</strong> {{images.price}}</p>
-        <p><strong>Descripcion:</strong> {{images.description}}</p>
-        <button>Más</button>
-    </div>   
-</div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide wrapper" *ngFor="let img of images">
+                <img class="img-banner" [src]="img" alt="imagen de banner">
+            </div>
+        </div>
+    </div>
