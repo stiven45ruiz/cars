@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+import {Images} from '../../images.model'; 
+
 @Component({
   selector: 'app-cars',
   templateUrl: './cars.component.html',
@@ -11,5 +13,5 @@ export class CarsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  products: Images[]
 }
