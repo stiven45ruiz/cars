@@ -1,0 +1,29 @@
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(470px, 1fr));
+    .target{
+        margin: 10px auto;
+        border: 1px solid #e6002385;
+        padding: 20px;
+        border-radius: 20px;
+        h3{
+            font-size: 1.8rem;
+            color: rgb(63, 63, 63);
+        }
+        img{
+            width: 500px;
+        }
+        p{
+            font-size: 1rem;
+        }
+        button{
+            background-color: #e60023;
+            border: none;
+            font-size: 1rem;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 10px;
+        }
+    }
+
+}
