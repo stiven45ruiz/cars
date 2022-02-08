@@ -6,6 +6,8 @@ import { JdmComponent } from './jdm/jdm.component';
 import { EuroComponent } from './euro/euro.component';
 import { AmericanComponent } from './american/american.component';
 
+import { SignUpComponent } from './components/sign-up/sign-up.component'
+
 const routes: Routes = [
   {
     path:'',
@@ -27,6 +29,10 @@ const routes: Routes = [
   {
     path: 'american',
     component: AmericanComponent,
+  },
+  {
+    path: 'sign-up',
+    component: SignUpComponent,
   }
 
 ];

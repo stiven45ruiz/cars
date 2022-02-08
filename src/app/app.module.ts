@@ -12,6 +12,13 @@ import { JdmComponent } from './jdm/jdm.component';
 import { EuroComponent } from './euro/euro.component';
 import { AmericanComponent } from './american/american.component';
 import { CarsComponent } from './components/cars/cars.component';
+import { SignUpComponent } from './components/sign-up/sign-up.component';
+
+import { ReactiveFormsModule } from '@angular/forms';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
+
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -23,11 +30,15 @@ import { CarsComponent } from './components/cars/cars.component';
     JdmComponent,
     EuroComponent,
     AmericanComponent,
-    CarsComponent
+    CarsComponent,
+    SignUpComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    BrowserAnimationsModule,
+    MatInputModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,23 @@
+.form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    font-size: 1.2rem;
+    margin: 50px auto;
+  }
+  
+  .example-full-width {
+    width: 100%;
+  }
+
+  .button-send:disabled{  
+      background-color: #e600237a;
+  }
+  .button-send{
+    color: white;
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #e60023;
+  }

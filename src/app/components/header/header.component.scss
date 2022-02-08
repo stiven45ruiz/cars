@@ -11,7 +11,7 @@ nav{
         display: flex;
         align-items: center;
         a{
-            font-weight: 600;
+            font-weight: 400;
             text-decoration: none;
             color: rgb(78, 78, 78);
             padding: 0 20px 0 20px;
@@ -29,6 +29,9 @@ nav{
             color: white;
         }
         a:hover{
+            color: #e60023;
+        }
+        a:active{
             color: #e60023;
         }
     }

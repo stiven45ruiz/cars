@@ -1,0 +1,30 @@
+<app-header></app-header>
+<form class="form">
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name" >
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Last Name</mat-label>
+        <input matInput placeholder="Last Name" >
+    </mat-form-field>
+    <mat-form-field class="example-full-width"  appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput placeholder="example@exa.com" [formControl]="emailField">
+    </mat-form-field>
+    <mat-form-field class="example-full-width"  appearance="fill">
+        <mat-label>Password</mat-label>
+        <input matInput [formControl]="passwordField" type="password">
+    </mat-form-field>
+    <mat-form-field class="example-full-width"  appearance="fill">
+        <mat-label>Confirm Password </mat-label>
+        <input matInput [formControl]="passwordField" type="password">
+    </mat-form-field>
+    
+
+    
+
+    <button class="button-send" mat-raised-button [disabled]="(passwordField.invalid || emailField.invalid)" >Enviar</button>
+    
+</form>
+<app-footer></app-footer>
