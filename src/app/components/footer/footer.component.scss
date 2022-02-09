@@ -3,19 +3,21 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 10px 0;
-    p{
+    margin: 20px 0;
+    .derechosR{
         font-size: 1rem;
     }
-    div{
+    .social{
         display: flex;
         flex-direction: row;
         align-items: center;
-        p{
+        justify-content: center;
+        > p{
+            text-align: center;
             font-weight: 600;
             padding-right: 5px;
         }
-        a{
+        > a{
             font-size: 1rem;
             padding-right: 7px;
             color: #d86778;
